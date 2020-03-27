@@ -123,6 +123,7 @@ public class ClientDto {
 
     @Override
     public int hashCode() {
+
         return Objects.hash(clientId);
     }
 }
